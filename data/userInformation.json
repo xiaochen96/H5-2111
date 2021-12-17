@@ -1,0 +1,40 @@
+{
+  "userInformation": [
+    {
+      "id": 1,
+      "name": "1054148301@qq.com",
+      "password": 123456,
+      "confirm": 123456
+    },
+    {
+      "id": 2,
+      "name": "17693190486",
+      "password": 110110,
+      "confirm": 110110
+    },
+    {
+      "id": 3,
+      "name": "645963146@qq.com",
+      "password": 789456,
+      "confirm": 789456
+    },
+    {
+      "name": "12",
+      "password": "12",
+      "confirm": "12",
+      "id": 4
+    },
+    {
+      "name": "1",
+      "password": "1",
+      "confirm": "1",
+      "id": 5
+    },
+    {
+      "name": "2",
+      "password": "2",
+      "confirm": "2",
+      "id": 6
+    }
+  ]
+}
