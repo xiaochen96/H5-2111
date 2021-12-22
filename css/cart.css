@@ -219,7 +219,11 @@
 }
 
 .cart-goods-list .col-check {
-    width: 110px;
+    width: 70px;
+    padding-left: 40px;
+}
+.cart-goods-list .col-check span{
+    margin-left: 10px;
 }
 
 .cart-goods-list .col-check .icon-checkbox {
@@ -732,6 +736,9 @@
     margin-right: 15px;
 }
 
+.placeholder-div{
+    margin: 20px 0;
+}
 .cart-bar {
     height: 50px;
     text-align: right;

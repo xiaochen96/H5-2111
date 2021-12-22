@@ -10,13 +10,14 @@ class Goods{
         let data = await axios.get({
             url: './data/goodsList.json'
         })
-        //console.log(data);//拿到所有数据为一个数组
+       // console.log(data);//拿到所有数据为一个数组
         //遍历数组拿到里面的数据
         let html = '';
         data.forEach(goods => {
             //console.log(goods.image);//就已经获取到name等数据了，直接拼接html结构
+            //console.log(goods);
             html += `   <div class="goods">
-            <a href="#"><img src="${goods.image}" alt=""></a>
+            <a href="./getbuy.html?id=${goods.id}"><img src="${goods.image}" alt=""></a>
             <h3 class="title">
                 <a href="#">${goods.name}</a>
             </h3>
@@ -26,7 +27,7 @@ class Goods{
             </p>
         </div>`
         });
-        console.log(html);
+        //console.log(html);
         this.list.innerHTML = html;
     }
 
