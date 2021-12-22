@@ -1,65 +1,109 @@
 [{
         "id": 1,
-        "name": "Redmi K20 Pro ",
-        "desc": "骁龙855处理器, 弹出式极界全面屏",
-        "image": "./upload/sm/097f0cf50bebae139744def8bc62d6df.jpg",
-        "price": 2100,
-        "del": 2300
+        "name": "Redmi K20",
+        "title": "Redmi K20 Pro",
+        "desc": "K20 6GB+128GB闪降200元热卖中！到手价仅1799元。可享花呗6期免息。索尼4800万超广角三摄 / 骁龙730处理器 / 前置2000万升降式相机 / 6.39\"AMOLED全面屏 / 4000mAh超长续航 / 第七代屏下指纹解锁 / 多功能NFC",
+        "price_max": "1799",
+        "market_price_max": "2099",
+        "price_min": "1799",
+        "market_price_min": "2099",
+        "value": "6GB+128GB",
+        "images": [
+            "./upload/sm/pms_1558854907.65258291.jpg",
+            "./upload/sm/pms_1558854907.55824331.jpg",
+            "./upload/sm/pms_1558854907.55824331.jpg",
+            "./upload/sm/pms_1558854907.5283799.JPG",
+            "./upload/sm/pms_1558854907.55114811.jpg"
+        ]
     },
     {
         "id": 2,
-        "name": "Redmi K20",
-        "desc": "弹出全面屏，4800万三摄",
-        "image": "./upload/sm/6de54004880564306b8730fc92c64dae.jpg",
-        "price": 2400,
-        "del": 2500
+        "name": "Redmi Note 7 Pro",
+        "title": "Redmi Note 7",
+        "desc": "「赠10000mAh Redmi 充电宝」索尼4800万超清拍照 / 6GB+128GB大存储 / 骁龙675处理器 / 4000mAh大电量 / 18个月超长质保 / 6.3\"水滴屏 / P2i整机防泼溅处理 / 标配18W充电器 / 德国莱茵 TÜV 认证护眼屏",
+        "price_max": "1399",
+        "market_price_max": "1599",
+        "price_min": "1399",
+        "market_price_min": "1599",
+        "value": "镜花水月",
+        "images": [
+            "./upload/sm/pms_1563848312.48538606.jpg",
+            "./upload/sm/pms_1563848312.59023575.jpg",
+            "./upload/sm/pms_1563848312.55834954.jpg",
+            "./upload/sm/pms_1563848312.46944642.jpg",
+            "./upload/sm/pms_1563848312.47255680.jpg"
+        ]
     },
     {
         "id": 3,
-        "name": "Redmi 7A",
-        "desc": "骁龙8核处理器",
-        "image": "./upload/sm/8f2ab52a8c96e5b9ae692576763d641c.jpg",
-        "price": 589,
-        "del": 586
+        "name": "Redmi Note 7",
+        "title": "Redmi Note 7 Pro",
+        "desc": "4800万拍照千元机 / “满血版”骁龙660处理器 / 品质“小金刚”，18个月超长质保 / 4000mAh 大电量 / 6.3\" 水滴全面屏 / USB-C 接口，方便耐用 / 支持快充 4 协议",
+        "price_max": "1099",
+        "market_price_max": "1399",
+        "price_min": "1099",
+        "market_price_min": "1399",
+        "value": "6GB+64GB",
+        "images": [
+            "./upload/sm/pms_1563325775.88248262.jpg",
+            "./upload/sm/pms_1563325775.88165918.jpg",
+            "./upload/sm/pms_1563325775.88135634.jpg",
+            "./upload/sm/pms_1563325775.97089304.jpg",
+            "./upload/sm/pms_1563325775.88167253.jpg"
+        ]
     },
     {
         "id": 4,
-        "name": "小米9",
-        "desc": "全息幻彩机身，骁龙855 ",
-        "image": "./upload/sm/271093cb5862f9b0073b0bf813e04f52.JPG",
-        "price": 869,
-        "del": 2500
+        "name": "Redmi 7 ",
+        "title": "Redmi 7A",
+        "desc": "「3GB+32GB、4GB+64GB，直降100，到手价低至699元」4000mAh大电量 / 骁龙632八核处理器 / 6.26\"水滴全面屏，德国莱茵 TÜV 认证护眼屏 / 18个月超长质保，康宁第五代大猩猩玻璃盖板 / 支持大字体、大音量模式，收音机、红外遥控功能 / 1200万AI双摄，1.25μm大像素相机",
+        "price_max": "699",
+        "market_price_max": "799",
+        "price_min": "699",
+        "market_price_min": "799",
+        "value": "3GB+32GB",
+        "images": [
+            "./upload/sm/pms_1555075954.81667747.jpg",
+            "./upload/sm/pms_1555075954.68242655.jpg",
+            "./upload/sm/pms_1555075954.66946359.jpg",
+            "./upload/sm/pms_1555075954.68286935.jpg",
+            "./upload/sm/pms_1558854907.5283799.jpg"
+        ]
     },
     {
         "id": 5,
-        "name": "Redmi Note 7 Pro",
-        "desc": "索尼4800万超清拍照",
-        "image": "./upload/sm/3c2b5f75d6ee4ebb3cb79e8b6b094a5f.JPG",
-        "price": 1399,
-        "del": 1599
+        "name": "小米9 SE",
+        "title": "小米9",
+        "desc": "索尼4800万超广角三摄 / 骁龙712全球首发 / 全息幻彩机身 / 三星AMOLED屏幕 / 5.97”水滴屏 / 第五代屏幕指纹识别 / 多功能NFC / 红外遥控",
+        "price_max": "1599",
+        "market_price_max": "1999",
+        "price_min": "1599",
+        "market_price_min": "1999",
+        "value": "6GB+64GB",
+        "images": [
+            "./upload/sm/pms_1550646262.14555118.jpg",
+            "./upload/sm/pms_1550646262.13317112.jpg",
+            "./upload/sm/pms_1550646262.13052238.jpg",
+            "./upload/sm/pms_1550646262.14867742.jpg",
+            "./upload/sm/pms_1558854907.5283799.jpg"
+        ]
     },
     {
         "id": 6,
-        "name": "Redmi Note 7",
-        "desc": "4800万拍照 长续航 ",
-        "image": "./upload/sm/7fc0687b6a790ce3689eb6a47ef71110.jpg",
-        "price": 1099,
-        "del": 1399
-    },
-    {
-        "id": 7,
-        "name": "Redmi 7 ",
-        "desc": "4000mAh超长续航",
-        "image": "./upload/sm/f422d4f9a7ca334cd00bcbea2e48cbc2.JPG",
-        "price": 699,
-        "del": 799
-    },
-    {
-        "id": 8,
-        "name": "小米9 SE",
-        "desc": "索尼4800万三摄，骁龙712",
-        "image": "./upload/sm/d02a52c64ecf13f1a3137e062628f20e.JPG",
-        "price": 1599,
-        "del": 1999
+        "name": "黑鲨游戏手机 2",
+        "title": "黑鲨游戏手机 Helo",
+        "desc": "「购机赠黑鲨游戏手柄套装」双材质折面光影机身 / 骁龙855旗舰芯片+最大12G内存 / Magic Press立体操控 / 液冷3.0: 塔式全域液冷系统 / Trueview Display精准显示 / 升级X+2天线 / AI游戏引擎",
+        "price_max": "2699",
+        "market_price_max": "3499",
+        "price_min": "2699",
+        "market_price_min": "3499",
+        "value": "8GB+128GB",
+        "images": [
+            "./upload/sm/pms_1552805592.50541016.jpg",
+            "./upload/sm/pms_1552805592.50392035.jpg",
+            "./upload/sm/pms_1552805592.38746638.jpg",
+            "./upload/sm/pms_1552805592.29862672.jpg",
+            "./upload/sm/pms_1552805592.32132559.jpg"
+        ]
     }
 ]

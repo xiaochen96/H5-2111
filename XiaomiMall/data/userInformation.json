@@ -1,0 +1,28 @@
+{
+  "userInformation": [
+    {
+      "id": 1,
+      "name": "1054148301@qq.com",
+      "password": "dsd123567",
+      "confirm": "dsd123567"
+    },
+    {
+      "id": 2,
+      "name": "17693190486",
+      "password": "er125846",
+      "confirm": "er125846"
+    },
+    {
+      "id": 3,
+      "name": "645963146@qq.com",
+      "password": "dasf89955",
+      "confirm": "dasf89955"
+    },
+    {
+      "name": "13548200815",
+      "password": "cx960314",
+      "confirm": "cx960314",
+      "id": 4
+    }
+  ]
+}

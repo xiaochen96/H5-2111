@@ -337,10 +337,6 @@
 
 /* 中部导航栏 */
 
-.box-big {
-    width: 100%;
-    height: 600px;
-}
 
 .getbuy-middle {
     width: 100%;
@@ -356,7 +352,9 @@
     line-height: 58px;
     margin-right: 13px;
 }
-
+.getbuy-middle ul{
+    margin-left: 50px;
+}
 
 /* 轮播图 */
 
@@ -381,15 +379,64 @@ hmtl {
     font-family: anton, sans-serif;
 }
 
-#slider-wrap {
-    width: 485px;
-    height: 538px;
+#loupe {
+    width: 600px;
+    height: 600px;
     position: relative;
-    overflow: hidden;
     float: left;
 }
+#loupe .pic{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+}
+#loupe .pic img{
+    width: 400px;
+    height: 400px;
+}
+#loupe ul{
+    margin-top: 60px;
+}
+#loupe ul li{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    float: left;
+    cursor: pointer;
+}
+#loupe ul li img{
+    width: 80px;
+    height: 80px;
 
-.fa-image img {
+}
+#big{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    overflow: hidden;
+    display: none;
+}
+#big img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+}
+.bigDade{
+    position: relative;
+}
+#loupe .mouse{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: skyblue;
+    opacity: 0.3;
+    display: none;
+}
+/* .fa-image img {
     padding-top: 83px;
 }
 
@@ -535,7 +582,7 @@ hmtl {
     top: 3px;
     opacity: 1;
     box-shadow: rgba(0, 0, 0, .1) 1px 1px 0;
-}
+} */
 
 h1,
 h2 {
@@ -556,25 +603,26 @@ h2 {
     margin-bottom: 30px;
 }
 
-#slider-wrap ul,
+/* #slider-wrap ul,
 #pagination-wrap ul li {
     -webkit-transition: all .3s cubic-bezier(1, .01, .32, 1);
     -moz-transition: all .3s cubic-bezier(1, .01, .32, 1);
     -o-transition: all .3s cubic-bezier(1, .01, .32, 1);
     -ms-transition: all .3s cubic-bezier(1, .01, .32, 1);
     transition: all .3s cubic-bezier(1, .01, .32, 1);
-}
+} */
 
 
 /* 轮播图的右边 */
 
 .getbuy-middle-right {
-    width: 611px;
+    width: 600px;
     height: 600px;
     margin-left: 600px;
 }
 
 .getbuy-middle-box1 {
+    margin-top: 15px;
     width: 539px;
     height: 228px;
     margin-left: 62px;
@@ -583,14 +631,14 @@ h2 {
 }
 
 .getbuy-middle-box1 h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .getbuy-middle-box1 p {
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .getbuy-middle-box1 em {
@@ -598,7 +646,9 @@ h2 {
     color: #ff6700;
     margin-bottom: 10px;
 }
-
+.getbuy-middle-box1 .goodPrice{
+    font-size: 40px;
+}
 .getbuy-middle-box2 {
     width: 563px;
     height: 140px;
